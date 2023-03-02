@@ -1,0 +1,60 @@
+
+
+<form class="form" method="post" action="">
+    <table id="form-table" class="form-table">
+        <tr>
+            <td>
+                <label for="title-name">Pealkiri: </label>
+            </td>
+            <td>
+                <input class="input-field" name="title" id="title-name" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label >Author 1: </label>
+            </td>
+            <td>
+                <select class="select-menu" name="author1" id="firstAuthor">
+                    <option value=""></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label >Author 2: </label>
+            </td>
+            <td>
+                <select class="select-menu" name="author2" id="secondAuthor">
+                    <option value=""></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hinne:
+            </td>
+            <td class="rating-category">
+                <input type="radio" name="grade" value=1>1
+                <input type="radio" name="grade" value=2>2
+                <input type="radio" name="grade" value=3>3
+                <input type="radio" name="grade" value=4>4
+                <input type="radio" name="grade" value=5>5
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="loetud">Loetud</label>
+            </td>
+            <td>
+                <input class="checkbox" id="loetud" name="isRead" type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="td-button">
+                <button type="submit" name="submitButton" id="btn">Salvesta</button>
+            </td>
+        </tr>
+    </table>
+</form>

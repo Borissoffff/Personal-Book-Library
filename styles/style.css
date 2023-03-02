@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, serif;
+
+}
+
+nav, footer {
+    background-color: lightblue;
+    width: 60%;
+    margin-left: 20%;
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav {
+    margin-top: 2%;
+}
+
+main {
+    min-height: 100vh;
+    /*
+    margin-bottom: -100px;
+    */
+}
+
+
+/*.push {
+    height: 100px;
+}*/
+
+.table-container {
+    margin-left: 20%;
+}
+
+.table-container td {
+    width: 30%;
+    padding-top: 5px;
+}
+
+.heading {
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-main {
+    font-size: large;
+}
+
+
+/*.category-table {*/
+/*    min-width: 60%;*/
+/*    font-size: large;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    margin-top: 4%;*/
+/*}*/
+
+/*.main-table {
+    min-width: 60%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}*/
+
+.form-table {
+    min-width: 30%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+/*.title-category {
+    width: 30%;
+}*/
+
+
+.input-field {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.select-menu {
+    width: 300px;
+}
+
+button {
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.td-button {
+    float: right;
+}
+
+hr {
+    width: 60%;
+    border-top: 4px solid black;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.checked {
+    color: orange;
+}
+
+#message-block {
+    color: green;
+}
+
+#error-block {
+    color: red;
+}
+
+.score-filled {
+    color: darkorange;
+}
+
+.book {
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.book > p {
+    width: 30%;
+    font-size: large;
+}
